@@ -1,0 +1,28 @@
+BODY { background-attachment: fixed; background-image: url(c8.jpg); font-family:arial; font-size:12pt; color:#000000;}
+BODY.MENU { font-family:arial; background-attachment: fixed; background-image: url(c8.jpg);  font-size:11pt; color:#FFFFFF;}
+A:link.MENU { font-family:arial; text-decoration:none; font-weight:bold; font-size:12pt; color:#CC0000;}
+A:visited.MENU  { font-family:arial; text-decoration:none; font-weight:bold; font-size:12pt; color:#CC0000; }
+A:hover.MENU { font-family:arial; text-decoration:none; font-weight:bold; font-size:12pt; color:#990000; } 
+A:link.COLOR { font-family:arial; text-decoration:none; font-weight:bold; font-size:12pt; color:#CC0000;}
+A:visited.COLOR  { font-family:arial; text-decoration:none; font-weight:bold; font-size:12pt; color:#CC0000; }
+A:hover.COLOR { font-family:arial; text-decoration:none; font-weight:bold; font-size:12pt; color:#990000; }  
+
+A:link { font-family:arial; color:#CC0000;}
+A:visited  { font-family:arial; color:#CC0000; }
+A:hover { font-family:arial; color:#990000; }  
+
+H4 { font-family:arial; font-size:20pt; }
+H5 { font-family:arial; font-size:15pt; }
+img.banner { position: absolute; left: 60px; top:7px; }
+img.banner2 { position: absolute; right: 60px; top:7px; }
+img.sample {  max-width:500; position:center;}
+img.sample1 {  width:500; position:center;}
+img.sample2 {  max-width:200; position:center;}
+p.text { font-family:arial; font-size:12pt; color:#000000; }
+li.text { font-family:arial; font-size:10pt; color:#000000; }
+li.bodytext { font-family:arial; font-size:10pt; color:#000000; }
+span.textbold { font-family:arial; font-weight:bold; font-size:12pt; color:#000000; }
+p.textbold { font-family:arial; font-weight:bold; font-size:12pt; color:#000000; }
+span.featuredtext { font-family:arial; font-size:10pt; color:#000000; }
+span.ctext { font-family:arial; font-size:8pt; color:#000000; }
+#information{ width:50%; margin-left:auto; margin-right:auto; text-align:left;}
