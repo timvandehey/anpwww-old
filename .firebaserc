@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "quickstart-1549985955906"
+  },
+  "targets": {
+    "quickstart-1549985955906": {
+      "hosting": {
+        "anpdevelopment": [
+          "anpdevelopment"
+        ],
+        "anpwww": [
+          "quickstart-1549985955906"
+        ]
+      }
+    }
+  }
+}

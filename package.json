@@ -1,0 +1,24 @@
+{
+  "name": "anpwww",
+  "version": "1.0.0",
+  "description": "Advance Name Plate www and wwwdev",
+  "main": "index.js",
+  "scripts": {
+    "deploydev": "firebase deploy --only hosting:anpdevelopment",
+    "deploywww": "firebase deploy --only hosting:anpwww",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timvandehey/anpwww.git"
+  },
+  "keywords": [
+    "anp"
+  ],
+  "author": "Tim Vandehey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timvandehey/anpwww/issues"
+  },
+  "homepage": "https://github.com/timvandehey/anpwww#readme"
+}

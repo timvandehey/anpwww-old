@@ -1,0 +1,22 @@
+{
+  "hosting": [
+{
+    "public": "public",
+    "target": "anpwww",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+{
+    "public": "public",
+    "target": "anpdevelopment",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+]
+}
