@@ -6,6 +6,7 @@
   "scripts": {
     "deploydev": "firebase deploy --only hosting:anpdevelopment",
     "deploywww": "firebase deploy --only hosting:anpwww",
+    "serve": "firebase serve --only hosting:anpdevelopment",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
