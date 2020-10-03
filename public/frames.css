@@ -1,0 +1,248 @@
+:root {
+  --primary: #0373fc;
+  --secondary: green;
+  --lightsecondary: lightgreen;
+  --warning: yellow;
+  --danger: red;
+  --white: white;
+  --offwhite: lightgrey;
+  --black: black;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding:0;
+  margin:0;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+
+html, body, iframe, #app{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    min-height: -webkit-fill-available;
+    overflow-y: scroll;
+}
+
+iframe {
+    height:100vh;
+    width:100%;
+    border: none;
+    display: block;
+    overflow-y: scroll;
+}
+
+.homeScreen {
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: start;
+    justify-content: space-evenly;
+  }
+
+.homeScreen button {
+    margin: 4px;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+    margin: .3rem .2rem 0rem .2rem;
+  padding: 0.3rem .3rem;
+  color: var(--white);
+  background-color: var(--primary);
+  outline: none;
+  border:none;
+  border-radius: 8px;
+}
+
+header {
+    font-size: larger;
+    background-color: var(--primary);
+    color: var(--white);
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left:0;
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-between; */
+    /* align-items: center; */
+}
+
+homegrid {
+    /* display: flex;
+    flex-direction: row; */
+     display: grid;
+  grid-template-columns: 1fr 4fr;
+  /* grid-column-gap: 10px; */
+}
+
+navigation {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--lightsecondary);
+    /* justify-content:space-between; */
+    /* align-items: center; */
+}
+
+panel {
+    margin: 0;
+    padding: 0;
+    height:100vh; /*93vh;*/
+    width:100%;
+    display: block;
+    border: none;
+    overflow-y: scroll;
+ }
+
+panels {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.panelSelect {
+    color: blue;
+    background-color: white;
+    height:4rem;
+    width: 8rem;
+    border: 2px solid green;
+    border-radius: .8rem;
+    margin-top: .5rem;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header button {
+    display: inline-flex;
+    align-items: center;
+    font: inherit;
+    color: var(--white);
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 4rem;
+    height: 7vh;
+}
+
+.userIcon {
+    height: 35px;
+    width: 35px;
+    border-radius: 18px;
+}
+
+details { display: inline;}
+
+/* .hide {
+        display: none;
+    }*/
+
+/*menu {
+        position: fixed;
+        top:7vh;
+        left:0;
+        height: 75vh;
+        background-color: lightgreen;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom:.5rem;
+        flex-wrap: wrap;
+        z-index:99;
+    }
+*/
+
+
+
+/*.flexrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}*/
+
+/*
+i {
+    padding: 0px;
+    height: 1rem;
+    margin: 0px;
+}
+*/
+
+/*.to {
+    height: 4rem;
+    width: 6rem;
+    border: 2px solid var(--secondary);
+    font: inherit;
+    color: var(--primary);
+    background-color: var(--white);
+    cursor: pointer;
+    outline: none;
+    border-radius: 12px;
+}
+*/
+/*
+iframe {
+    border: none;
+    display: block;
+    overflow-y: scroll;
+}
+*/
+
+
+
+/*
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
+    grid-gap: 1rem;
+    grid-auto-flow: dense;
+    list-style: none;
+    margin: .2em;
+    padding: .2em;
+}
+
+.wrapper li {
+    display: grid;
+    border: 0px solid #ccc;
+    height: 4.5rem;
+    border: none; 
+}
+
+.wrapperXXX {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    overflow-y: scroll;
+}
+
+#splash {
+    display:block;
+    background-color: var(--primary);
+    color: var(--white);
+    text-align: center;
+}
+
+*/
+
+
+
+/*
+footer {
+  width: 100%;
+  background-color: var(--secondary);
+}
+*/

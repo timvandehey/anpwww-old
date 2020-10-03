@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base target="_top">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title class="title">advancenameplate.com</title>
+    <link href="../frames.css" rel="stylesheet">
+  </head>
+  <body id=body>
+      <div id=app>
+        <header>
+            <button id=menuButton data-for=home><i class="material-icons">menu</i></button>
+            <div id=appTitle>
+                <img src="anplogotransscaled.png" style="max-width: 90%;">
+            </div>
+        </header>
+        <homegrid>
+        <navigation>
+                <button data-for=faq>FAQ</button>
+                <button data-for=about>About</button>
+                <button data-for=Home>anpHome</button>
+        </navigation>
+        <panels id=panels>
+            <panel id=home class="homeScreen">
+                <button data-for=faq>FAQ</button>
+                <button data-for=about>About</button>
+                <button data-for=Home>anpHome</button>
+            </panel>
+            <panel id=Home>
+                <iframe src=Home.html></iframe>
+            </panel>
+            <panel id=iframeLoading class=hidden>
+                <div style="margin:20% 20%;">
+                Application Loading...
+                </div>
+            </panel>
+            <panel id=faq>
+                <iframe src='faq.html'></iframe>
+            </panel>
+            <panel id=about>
+                <iframe src='about.html'></iframe>
+            </panel>
+            <panel id=loggerPanel class=hidden>
+              <h3>Debug Log</h3>
+              <pre id=logger></pre>
+            </panel>
+        </panels>
+        </homegrid>
+    </div> 
+    <pre id=firstData class=hidden>
+      
+    </pre>
+ <script type=module src='js/app.js' ></script>
+  </body>
+</html>
